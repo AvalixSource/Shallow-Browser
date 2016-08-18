@@ -1,26 +1,18 @@
 # Shallow Browser
-An easy to use browser with a clean, flat UI. This browser is running on Node.js and Electron
+__An easy to use browser with a clean, flat UI. This browser is running on Node.js and Electron.__
 
-View release notes below and instructions below.
+![Shallow Browser Preview](https://avalix.net/content/img/shallow-prev.png)
 
-<img src="https://avalix.net/content/img/shallow-prev.png" />
+The [changelog](https://github.com/AvalixSource/Shallow-Browser/CHANGELOG.md) is where you can find all changes, additions, and fixes on Shallow Browser. If you'd like to [contribute](https://github.com/AvalixSource/Shallow-Browser/CONTRIBUTING.md) to Shallow Browser, feel free to clone the repository and submit a pull request. If you have an [issue](https://github.com/AvalixSource/Shallow-Browser/issues/) with Shallow Browser please let us know about it.
 
-# Release Notes
+---
 
-<ul>
-  <li>0.01
-    <ul>
-      <li>First upload</li>
-    </ul>
-  </li>
-</ul>
+## Build Prerequisites
+- Node.js - v4.4.7 - [Installation](https://nodejs.org/en/download/)
+- Electron - [Installation](https://github.com/electron-userland/electron-prebuilt)
 
-# Instructions
+---
 
-To make changes, you will need to have the following installed on your system:
-
-<ul>
-  <li>Node.js - v4.4.7 - <a href="">View installation instructions</a></li>
-  <li>Electron - <a href="">View installation instructions</a></li>
-</ul>
-
+## Maintainers
+- [Josh Tulloch](https://github.com/soriox)
+- [Russ Treadwell](https://github.com/trdwll)
