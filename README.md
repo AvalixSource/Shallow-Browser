@@ -7,4 +7,10 @@ View release note below.
 
 # Release Notes
 
-v0.01 - 8/18/16
+<ul>
+  <li>v0.1
+    <ul>
+      <li>8/18/16</li>
+    </ul>
+  </li>
+</ul>
