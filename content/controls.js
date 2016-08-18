@@ -1,0 +1,3 @@
+function closeApp() {
+  window.close();
+}

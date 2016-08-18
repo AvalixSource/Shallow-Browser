@@ -1,0 +1,13 @@
+body, html, ul, li, ol, table, iframe {
+  margin: 0;
+  padding: 0;
+}
+button, input, table {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+}
+button:focus, select:focus, input:focus {
+  outline: none;
+}
