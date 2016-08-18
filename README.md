@@ -8,7 +8,7 @@ View release notes below and instructions below.
 # Release Notes
 
 <ul>
-  <li>0.01
+  <li>0.0.1
     <ul>
       <li>First upload</li>
     </ul>
