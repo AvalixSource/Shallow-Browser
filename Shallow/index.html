@@ -5,6 +5,7 @@
   <link href="content/css/reset.css" rel="stylesheet" type="text/css" />
   <link href="content/css/global.css" rel="stylesheet" type="text/css" />
   <link href="content/css/responsive.css" rel="stylesheet" type="text/css" />
+  <script>require('content/js/jquery-1.10.2.js')</script>
 </head>
 <body>
   <div class="toolbar">
@@ -17,10 +18,13 @@
     <div class="url left">
       <input id="url-input" placeholder="Search" />
     </div>
+    <div class="tabs left">
+      <ul><ul>
+    </div>
     <div class="browser-controls right">
       <div class="window-browser-controls right">
         <button id="close-btn" class="close-button right" onclick="closeApp();"></button>
-        <button id="max-btn" class="resize-button right"></button>
+        <button id="max-btn" class="resize-button right"><img src="content/icons/resize-up-button-icon.png" /></button>
         <button id="min-btn" class="minimize-button right"></button>
       </div>
       <script src="window-controls.js"></script>
@@ -30,7 +34,7 @@
     </div>
   </div>
   <div class="wrapper">
-    <webview src="http://avalix.net" allowpopups></webview>
+    <webview src="http://avalix.net" preload="content/js/__insert.js" allowpopups></webview>
   </div>
 </body>
 </html>

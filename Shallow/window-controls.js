@@ -9,8 +9,10 @@ const remote = require('electron').remote;
       var window = remote.getCurrentWindow();
       if (!window.isMaximized()) {
           window.maximize();
+          var resizeButton = document.getElementById("max-btn").innerHTML = '<img src="content/icons/resize-down-button-icon.png" />';
       } else {
           window.unmaximize();
+          var resizeButton = document.getElementById("max-btn").innerHTML = '<img src="content/icons/resize-up-button-icon.png" />';
       }
  });
 

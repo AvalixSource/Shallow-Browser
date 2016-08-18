@@ -41,6 +41,7 @@ body, html {
   height: 60px;
   width: 40px;
   background-color: white;
+  -webkit-transition: all ease .2s;
 }
 .refresh-button {
   background: url('../icons/refresh-button-icon.png') white;
@@ -63,18 +64,25 @@ body, html {
   cursor: pointer;
 }
 .browser-controls {
-  width: 90px;
+  width: 100px;
   height: 60px;
-  margin-right: 10px;
   -webkit-app-region: no-drag;
 }
 .window-browser-controls {
-  width: 90px;
+  width: 100px;
   height: 30px;
 }
-.toolbar-browser-controls, .close-button, .list-button, .resize-button, .minimize-button {
+.close-button {
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  -webkit-transition: all ease .2s;
+}
+.toolbar-browser-controls, .list-button, .resize-button, .minimize-button {
   width: 30px;
   height: 30px;
+  text-align: center;
+  -webkit-transition: all ease .2s;
 }
 .list-button {
   background: url('../icons/list-button-icon.png') white;
@@ -85,7 +93,7 @@ body, html {
   cursor: pointer;
 }
 .close-button {
-  background: url('../icons/close-button-icon.png') white;
+  background: url('../icons/close-button-icon.png') center white;
   opacity: .7;
 }
 .minimize-button {
@@ -93,10 +101,15 @@ body, html {
   opacity: .7;
 }
 .resize-button {
-  background: url('../icons/resize-up-button-icon.png') white;
+  background-color: transparent;
   opacity: .7;
 }
-
+.close-button:hover {
+  background-color: #ff4545;
+}
+.minimize-button:hover, .resize-button:hover {
+  background-color: #45afff;
+}
 .wrapper {
   width: 100%;
   height: calc(100% - 60px);
