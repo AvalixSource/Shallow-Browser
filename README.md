@@ -15,4 +15,12 @@ View release note below.
   </li>
 </ul>
 
-# Developers
+# Instructions
+
+To make changes, you will need to have the following installed on your system:
+
+<ul>
+  <li>Node.js</li>
+  <li>Electron</li>
+</ul>
+
