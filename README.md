@@ -3,7 +3,7 @@ __An easy to use browser with a clean, flat UI. This browser is running on Node.
 
 ![Shallow Browser Preview](https://avalix.net/content/img/shallow-prev.png)
 
-The [changelog](https://github.com/AvalixSource/Shallow-Browser/CHANGELOG.md) is where you can find all changes, additions, and fixes on Shallow Browser. If you'd like to [contribute](https://github.com/AvalixSource/Shallow-Browser/CONTRIBUTING.md) to Shallow Browser, feel free to clone the repository and submit a pull request. If you have an [issue](https://github.com/AvalixSource/Shallow-Browser/issues/) with Shallow Browser please let us know about it.
+The [changelog](CHANGELOG.md) is where you can find all changes, additions, and fixes on Shallow Browser. If you'd like to [contribute](CONTRIBUTING.md) to Shallow Browser, feel free to clone the repository and submit a pull request. If you have an [issue](https://github.com/AvalixSource/Shallow-Browser/issues/) with Shallow Browser please let us know about it.
 
 ---
 
