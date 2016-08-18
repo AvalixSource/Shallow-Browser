@@ -8,9 +8,9 @@ View release note below.
 # Release Notes
 
 <ul>
-  <li>v0.1
+  <li>8/18/16
     <ul>
-      <li>8/18/16</li>
+      <li>v0.01</li>
     </ul>
   </li>
 </ul>
