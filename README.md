@@ -20,7 +20,7 @@ View release notes below and instructions below.
 To make changes, you will need to have the following installed on your system:
 
 <ul>
-  <li>Node.js</li>
-  <li>Electron</li>
+  <li>Node.js - <a href="">View installation instructions</a></li>
+  <li>Electron - <a href="">View installation instructions</a></li>
 </ul>
 
