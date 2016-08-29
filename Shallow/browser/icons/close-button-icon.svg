@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:#FFFFFF;}
+	.st1{fill:#FFFFFF;}
+</style>
+<image style="display:none;overflow:visible;" width="30" height="30" xlink:href="resize-down-button-icon.png" >
+</image>
+<path id="XMLID_1_" class="st0" d="M9.9,20c-0.5-0.5-0.5-1.4,0-1.9l3.2-3l-3.2-3c-0.5-0.5-0.5-1.4,0-1.9c0.5-0.5,1.3-0.5,1.8,0
+	l3.3,3.2l3.3-3.2c0.5-0.5,1.3-0.5,1.8,0c0.5,0.5,0.5,1.4,0,1.9l-3.2,3l3.2,3c0.5,0.5,0.5,1.4,0,1.9c-0.5,0.5-1.3,0.5-1.8,0L15,16.8
+	L11.7,20C11.2,20.5,10.4,20.5,9.9,20z"/>
+<path class="st1" d="M18.5,20.1l-8.6-8.6c-0.4-0.4-0.4-1.1,0-1.6l0,0c0.4-0.4,1.1-0.4,1.6,0l8.6,8.6c0.4,0.4,0.4,1.1,0,1.6l0,0
+	C19.6,20.5,18.9,20.5,18.5,20.1z"/>
+<path class="st1" d="M9.9,18.5l8.6-8.6c0.4-0.4,1.1-0.4,1.6,0l0,0c0.4,0.4,0.4,1.1,0,1.6l-8.6,8.6c-0.4,0.4-1.1,0.4-1.6,0l0,0
+	C9.5,19.6,9.5,18.9,9.9,18.5z"/>
+</svg>

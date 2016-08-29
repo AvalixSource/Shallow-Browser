@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shallow</title>
+  <link href="theme/reset.css" rel="stylesheet" type="text/css" />
+  <link href="theme/global.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="toolbar">
+    <div class="left navbuttons">
+      <button class="left back-button"><img src="icons/back-button-icon.svg" /></button>
+      <button class="left forward-button"><img src="icons/forward-button-icon.svg" /></button>
+      <button class="left refresh-button"><img src="icons/refresh-button-icon.svg" /></button>
+      <button class="left home-button"><img src="icons/home-button-icon.svg" /></button>
+    </div>
+    <form class="url left" method="post">
+      <input id="url-input" placeholder="Search" />
+    </form>
+    <div class="tabs left">
+      <ul id ="tabs-list">
+        <li class="tab active">
+          <div class="tab-favicon left"><div></div></div>
+          <div class="tab-title left"><p>http://google.com/searchssssssssss</p></div>
+        </li>
+      </ul>
+    </div>
+    <button class="new-tab-button left"><img src="icons/new-tab-button-icon.svg" /></button>
+    <div class="browser-controls right">
+      <div class="window-browser-controls right">
+        <button id="close-btn" class="close-button right"><img src="icons/close-button-icon.svg" style="width: 30px;"/></button>
+        <button id="max-btn" class="resize-button right"><img src="icons/resize-up-button-icon.svg" /></button>
+        <button id="min-btn" class="minimize-button right"><img src="icons/minimize-button-icon.svg" /></button>
+      </div>
+      <script src="window-controls.js"></script>
+      <div class="toolbar-browser-controls right">
+        <button class="list-button right"><img src="icons/list-button-icon.svg" /></button>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <webview id="pageView" class="active" src="https://www.github.com/" autosize="on"></webview>
+  </div>
+  <script src="browser-render.js"></script>
+</body>
+</html>

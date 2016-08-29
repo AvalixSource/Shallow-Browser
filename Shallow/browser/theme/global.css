@@ -1,0 +1,225 @@
+body {
+  background-color: #34373f;
+  border-radius: 8px;
+  overflow: hidden;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+}
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.toolbar {
+  width: 100%;
+  height: 60px;
+  background-color: #34373f;
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+  user-select: none;
+  border-bottom: 1px #44464c solid;
+  font-family: OpenSansRegular;
+}
+.toolbar:hover {
+  cursor: default;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.url {
+  width: 220px;
+  height: 60px;
+  padding-top: 15px;
+  margin-left: 5px;
+  -webkit-app-region: no-drag;
+}
+#url-input {
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  border-right: 1px #44464c solid;
+  border-left: 1px #44464c solid;
+  color: white;
+  overflow-x: hidden;
+  background-color: #34373f;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#url-input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+}
+.navbuttons {
+  margin-left: 10px;
+  width: auto;
+  height: 60px;
+  -webkit-app-region: no-drag;
+}
+.forward-button, .back-button, .refresh-button, .home-button {
+  height: 60px;
+  width: 40px;
+  background-color: transparent;
+  -webkit-transition: all ease .2s;
+}
+.refresh-button, .forward-button, .back-button, .home-button {
+  opacity: .7;
+}
+.forward-button:hover, .back-button:hover, .refresh-button:hover, .home-button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.browser-controls {
+  width: 100px;
+  height: 60px;
+  -webkit-app-region: no-drag;
+}
+.window-browser-controls {
+  width: 100px;
+  height: 30px;
+  border-bottom: 1px #44464c solid;
+}
+.close-button {
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  -webkit-transition: all ease .2s;
+}
+.toolbar-browser-controls, .list-button, .resize-button, .minimize-button {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  -webkit-transition: all ease .2s;
+}
+.toolbar-browser-controls {
+  margin-right: 10px;
+}
+.list-button {
+  background: url('../icons/list-button-icon.svg');
+  opacity: .7;
+}
+.list-button:hover, .close-button, .minimize-button, .resize-button {
+  opacity: 1;
+  cursor: pointer;
+}
+.close-button {
+  text-align: center;
+  opacity: .7;
+}
+.minimize-button {
+  opacity: .7;
+}
+.resize-button {
+  background-color: transparent;
+  opacity: .7;
+}
+.close-button:hover {
+  background-color: #ef3f3f;
+  opacity: 1;
+}
+.minimize-button:hover, .resize-button:hover {
+  background-color: #505256;
+  opacity: 1;
+}
+.wrapper {
+  width: 100%;
+  height: calc(100% - 60px);
+}
+#pageView {
+  width: 100%;
+  height: calc(100% - 61px);
+  border: 0;
+  padding: 0;
+  left: 0;
+  top: 61px;
+  position: absolute;
+  display: none;
+  background-color: #34373f;
+}
+.tabs {
+  width: auto;
+  max-width: calc(100% - 550px);
+  height: calc(100%);
+}
+.tabs ul {
+  margin: 0;
+}
+.tabs ul li {
+  min-width: 20px;
+  margin-top: 16px;
+  width: 200px;
+  height: 35px;
+  float: left;
+  border-bottom: 4px #44464c solid;
+  background-color: #34373f;
+  list-style: none;
+  text-align: center;
+  padding-bottom: 5px;
+  -webkit-app-region: no-drag;
+  -webkit-transition: all ease .2s;
+}
+.tabs ul li:hover {
+  cursor: pointer;
+  border-bottom: 4px #47eaa0 solid;
+}
+.tab-favicon {
+  width: 30px;
+  height: 100%;
+}
+.tab-favicon div {
+  width: 16px;
+  height: 16px;
+  margin: 10px auto;
+}
+.tab-title {
+  width: calc(100% - 30px);
+  height: calc(100% - 10px);
+  padding-top: 8px;
+}
+.tab-title p {
+  	overflow: hidden;
+  	width: 90%;
+    color: white;
+  	white-space: nowrap;
+}
+.tab-title p::after {
+  content:'';
+  position: absolute;
+  width: 50px;
+  height: 33px;
+  margin-left: -115px;
+  margin-top: -8px;
+  background:linear-gradient(to right, rgba(52, 55, 63, 0), rgba(52, 55, 63, 1));
+}
+.new-tab-button {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 20px;
+  opacity: .7;
+  border-left: 1px #44464c solid;
+  border-right: 1px #44464c solid;
+  border-top: 1px #44464c solid;
+  background-color: #34373f;
+  -webkit-app-region: no-drag;
+  -webkit-transition: all ease .2s;
+}
+.new-tab-button:hover {
+  cursor: pointer;
+  opacity: 1;
+  background-color: #44464c;
+}
+#pageView.active {
+  display: flex;
+}
+.tab.active {
+  border-bottom: 4px #47eaa0 solid;
+}
