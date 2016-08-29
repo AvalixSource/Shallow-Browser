@@ -11,6 +11,9 @@ The [changelog](CHANGELOG.md) is where you can find all changes, additions, and 
 - Node.js - v4.4.7 - [Installation](https://nodejs.org/en/download/)
 - Electron - [Installation](https://github.com/electron-userland/electron-prebuilt)
 
+## Electron Plugins
+- JQuery [Installation](http://ourcodeworld.com/articles/read/202/how-to-include-and-use-jquery-in-electron-framework)
+
 ---
 
 ## Maintainers
