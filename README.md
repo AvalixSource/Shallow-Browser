@@ -13,6 +13,7 @@ The [changelog](CHANGELOG.md) is where you can find all changes, additions, and 
 
 ## Electron Plugins
 - JQuery [Installation](http://ourcodeworld.com/articles/read/202/how-to-include-and-use-jquery-in-electron-framework)
+- Electron Packager [Installation](https://www.npmjs.com/package/electron-packager)
 
 ---
 
